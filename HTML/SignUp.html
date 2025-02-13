@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../CSS/SignUp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+        
+</head>
+
+<body>
+  
+    <div class="login-container">
+        
+        <div class="image-container">
+            <img src="../imágenes/Background1.jpg" alt="Imagen de Registro">
+        </div>
+
+        
+        <div class="container">
+            <form action="" method="POST">
+                <h1>REGISTRO</h1>
+                <hr>
+                <label for="id">
+                    <i class="fas fa-id-card"></i> ID
+                </label>
+                <input type="text" name="id" placeholder="ID del Usuario" required>
+
+                <label for="nombre">
+                    <i class="fas fa-user"></i> Nombre
+
+                </label>
+                <input type="text" name="nombre" placeholder="Nombre Completo" required>
+
+                <label for="edad">
+                    <i class="fas fa-calendar-alt"></i> Edad
+                </label>
+                <input type="number" name="edad" placeholder="Edad" required>
+
+                <label for="correo">
+                    <i class="fas fa-envelope"></i> Correo
+                </label>
+                <input type="email" name="correo" placeholder="Correo Electrónico" required>
+
+                <label for="password">
+                    <i class="fas fa-lock"></i> Contraseña
+                </label>
+                <input type="password" name="password" placeholder="Contraseña" required>
+                <hr>
+                <div class="form-actions">
+                    <button type="submit" class="boton">Registrarse</button>
+                    <a href="index.html" class="link-login">¿Ya tienes una cuenta? Inicia sesión</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
